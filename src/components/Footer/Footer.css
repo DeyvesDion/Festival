@@ -1,0 +1,22 @@
+.container-fluid {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    color: #ffffff;
+}
+
+.coeur {
+    color: red;
+}
+
+/* media queries */
+@media (min-width: 10px) and (max-width: 730px) {
+    .container-fluid {
+        align-items: center;
+        text-align: center;
+        display: flex;
+        flex-direction: column-reverse;
+        font-size: 10px;
+    }
+}

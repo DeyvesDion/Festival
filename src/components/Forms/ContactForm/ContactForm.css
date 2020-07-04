@@ -1,0 +1,70 @@
+.contact {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.contactTitle {
+    font-size: 27px;
+    text-align: center;
+}
+
+.required {
+    color: red;
+}
+
+.carte {
+    width: 515px;
+    height: 300px;
+}
+
+.trajet {
+    margin-bottom: 50px;
+}
+
+.btn-outline-success {
+    outline: none !important;
+    box-shadow: none !important;
+    color: #7451EB;
+    border-color: #7451EB;
+}
+
+.btn-outline-success:hover {
+    background-color: #7451EB;
+    border-color: #7451EB;
+}
+
+.btn-outline-success:focus {
+    color: #7451EB;
+    background-color: #7451EB;
+    border-color: #7451EB;
+}
+
+.fas {
+    font-size: 50px;
+}
+
+/* media query */
+@media (max-width: 768px) {
+
+    .addr {
+        margin-top: 35px;
+        margin-bottom: 5px;
+    }
+
+    .contactTitle {
+        margin-bottom: 30px;
+    }
+
+    .trajet {
+        margin-bottom: 85px;
+    }
+
+    .contact {
+        margin-bottom: 0.5px;
+    }
+
+    article {
+        margin-top: 15px;
+    }
+
+}

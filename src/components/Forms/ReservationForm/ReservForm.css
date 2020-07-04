@@ -1,0 +1,56 @@
+* {
+    font-family: 'Montserrat',
+        sans-serif;
+}
+
+.container h2 {
+    font-size: 35px;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.resa {
+    margin-bottom: 50px;
+}
+
+
+.error {
+    color: red;
+    font-size: 15px;
+}
+
+.required {
+    color: red;
+}
+
+.btn-outline-success {
+    color: #7451EB;
+    border-color: #7451EB;
+    outline: none !important;
+    box-shadow: none !important;
+}
+
+.btn-outline-success:hover {
+    background-color: #7451EB;
+    border-color: #7451EB;
+}
+
+.btn-outline-success:focus {
+    color: #7451EB;
+    background-color: #7451EB !important;
+    border-color: #7451EB !important;
+}
+
+/* media query */
+@media (max-width: 991px) {
+    .complement {
+        display: none;
+    }
+}
+
+@media (max-width: 768px) {
+    .resa {
+        margin-bottom: 85px;
+    }
+
+}

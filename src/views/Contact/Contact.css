@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@500&family=Montserrat:wght@500&display=swap');
+
+.header {
+    height: 100vh;
+    background-image: linear-gradient(rgba(124, 90, 228, 0.5), rgba(83, 37, 236, 0.5)),
+        url(../../assets/Contact.jpg);
+
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.headerTitle {
+    text-align: center;
+    font-size: 65px;
+    text-shadow: 1px 1px 2px #000000;
+    letter-spacing: 2px;
+    color: #ffffff;
+    font-family: 'Montserrat Alternates',
+        sans-serif;
+}
+
+/* media query */
+@media (max-width: 613px) {
+    .headerTitle {
+        font-size: 35px;
+    }
+}

@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap');
+
+* {
+    font-family: 'Montserrat',
+        sans-serif;
+}
+
+.seance {
+    background-image: linear-gradient(rgba(124, 90, 228, 0.5), rgba(83, 37, 236, 0.5));
+    height: 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center
+}
+
+.seanceTitle {
+    text-transform: uppercase;
+    /* text-align: center; */
+}
+
+.tableTitle {
+    text-transform: uppercase;
+}
+
+.table-fixed {
+    width: 100%;
+}
+
+tbody {
+    display: block;
+    height: 500px;
+    overflow: auto;
+}
+
+thead,
+tbody tr {
+    display: table;
+    width: 100%;
+    table-layout: fixed;
+    /* even columns width , fix width of table too*/
+}
+
+thead {
+    width: calc(100% - 1em)
+        /* scrollbar is average 1em/16px width, remove it from thead width */
+}
+
+table {
+    width: auto;
+}
+
+
+.btn-outline-success {
+    outline: none !important;
+    box-shadow: none !important;
+}
+
+.btn-outline-success {
+    color: #7451EB;
+    border-color: #7451EB;
+}
+
+.btn-outline-success:hover {
+    background-color: #7451EB;
+    border-color: #7451EB;
+}
+
+.btn-outline-success:focus {
+    color: #ffffff;
+    background-color: #7451EB !important;
+    border-color: #7451EB !important;
+}
+
+/* media querie */
+@media (min-width: 10px) and (max-width: 340px) {
+    .seanceTitle {
+        font-size: 20px;
+    }
+}
+
+@media (min-width: 10px) and (max-width: 352px) {
+    .tTitre {
+        font-size: 7px;
+    }
+
+    .btn-outline-success {
+        font-size: 11px;
+    }
+}

@@ -7,9 +7,20 @@
     "build": "vue-cli-service build"
   },
   "dependencies": {
+    "@fortawesome/fontawesome-free": "^5.13.0",
+    "bootstrap": "^4.5.0",
     "core-js": "^3.6.5",
+    "iquery": "0.0.2",
+    "popper.js": "^1.16.1",
+    "sweetalert": "^2.1.2",
     "vue": "^2.6.11",
-    "vue-router": "^3.2.0"
+    "vue-carousel": "^0.18.0",
+    "vue-cookie-law": "^1.13.3",
+    "vue-js-modal": "^2.0.0-rc.3",
+    "vue-router": "^3.2.0",
+    "vue2-datepicker": "^3.6.0",
+    "vuejs-datepicker": "^1.6.2",
+    "vuelidate": "^0.7.5"
   },
   "devDependencies": {
     "@vue/cli-plugin-babel": "~4.4.0",

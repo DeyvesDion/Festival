@@ -1,0 +1,21 @@
+.cookie {
+    font-size: 30px;
+}
+
+btn-outline-info {
+    color: #7451EB;
+    border-color: #7451EB;
+    outline: none !important;
+    box-shadow: none !important;
+}
+
+.btn-outline-info:hover {
+    background-color: #7451EB;
+    border-color: #7451EB;
+}
+
+.btn-outline-info:focus {
+    color: #7451EB;
+    background-color: #7451EB !important;
+    border-color: #7451EB !important;
+}

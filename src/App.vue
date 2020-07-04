@@ -1,32 +1,27 @@
 <template>
-  <div id="app">
-    <div id="nav">
-      <router-link to="/">Home</router-link> |
-      <router-link to="/about">About</router-link>
+    <div id="app">
+        <!-- <div id="nav">
+            <router-link to="/">Accueil</router-link> |
+            <router-link to="/about">About</router-link>
+        </div> -->
+        <NavBar></NavBar>
+        <router-view />
+        <CookieLaw></CookieLaw>
+        <Footer></Footer>
     </div>
-    <router-view/>
-  </div>
 </template>
+<script>
+// @ is an alias to /src
+import NavBar from "@/components/NavBar/NavBar.vue";
+import CookieLaw from "@/components/CookieLaw/CookieLaw.vue";
+import Footer from "@/components/Footer/Footer.vue";
+export default {
+    components: {
+        NavBar,
+        CookieLaw,
+        Footer,
+    },
+};
+</script>
 
-<style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-}
-
-#nav {
-  padding: 30px;
-}
-
-#nav a {
-  font-weight: bold;
-  color: #2c3e50;
-}
-
-#nav a.router-link-exact-active {
-  color: #42b983;
-}
-</style>
+<style src="../src/components/NavBar/NavBar.css" scoped></style>

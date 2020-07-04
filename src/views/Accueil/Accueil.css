@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap');
+
+* {
+    font-family: 'Montserrat',
+        sans-serif;
+}
+
+.news .title {
+    font-size: 50px;
+    text-transform: uppercase;
+}
+
+.imgB {
+    height: 450px;
+
+    background-image: linear-gradient(rgba(124, 90, 228, 0.5), rgba(83, 37, 236, 0.5)),
+        url(../../assets/Festival.jpg);
+    ;
+
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.imgB h2 {
+    text-align: center;
+    font-size: 65px;
+    letter-spacing: 2px;
+    color: #ffffff;
+    margin-bottom: 60px;
+    font-family: 'Montserrat Alternates',
+        sans-serif;
+}
+
+.titleD {
+    color: red;
+}
+
+.btn-outline-success {
+    outline: none !important;
+    box-shadow: none !important;
+    color: #ffffff;
+    border-color: #7451EB;
+}
+
+.btn-outline-success:hover {
+    background-color: #7451EB;
+    border-color: #7451EB;
+}
+
+.btn-outline-success:focus {
+    color: #ffffff;
+    background-color: #7451EB !important;
+    border-color: #7451EB !important;
+}
+
+/* media query */
+@media (max-width: 768px) {
+    .imgB h2 {
+        font-size: 35px;
+    }
+
+    .titleD {
+        font-size: 35px;
+    }
+
+}
