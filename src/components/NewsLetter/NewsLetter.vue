@@ -21,13 +21,13 @@
      Ok
     </button>
    </form>
-   <div class="social">
+   <!-- <div class="social">
     <i class="fab fa-facebook" title="Facbook"></i>
     <i class="fab fa-twitter" title="Twitter"></i>
     <i class="fab fa-instagram" title="Instagram"></i>
     <i class="fab fa-snapchat" title="Snapchat"></i>
     <i class="fab fa-youtube" title="Youtube"></i>
-   </div>
+   </div> -->
   </div>
  </div>
 </template>

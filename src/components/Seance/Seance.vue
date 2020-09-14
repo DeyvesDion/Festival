@@ -21,7 +21,7 @@
       <td>{{ film.Titre }}</td>
       <td>{{ film.Langue }}</td>
       <td>
-       <button @click.prevent="details(index)" class="btn btn-outline-success">
+       <button @click.prevent="details(film)" class="btn btn-outline-success">
         Voir
        </button>
       </td>
@@ -57,8 +57,16 @@ export default {
   };
  },
  methods: {
-  details() {
-   console.log(this.Films[1].Titre);
+  details(film) {
+   let titreF = film.Titre;
+   let filmH = film.Heure;
+   let filmL = film.Langue;
+   swal({
+    title: titreF,
+    text: `Prochaine séance à : ${filmH} Langue : ${filmL}`,
+    // text: `Langue : ${filmL}`,
+    button: "Fermer",
+   });
   },
  },
 };
