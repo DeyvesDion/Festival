@@ -10,6 +10,7 @@ import Contact from '../views/Contact/Contact.vue'
 Vue.use(VueRouter)
 
 const routes = [
+
   {
     path: '/',
     name: 'Accueil',
@@ -41,7 +42,7 @@ const routes = [
 ]
 
 const router = new VueRouter({
-  mode: '',
+  mode: 'history',
   base: process.env.BASE_URL,
   routes,
 })
